@@ -33,10 +33,10 @@ print(liste)
        #kullaniciA: Yiğit Bilgi 2010, (70,60,70)
        #kullaniciB: Sena Turan  1999, (80,80,70)
        #kullaniciC: Ahmet Turan 1998, (80,70,90) 
-yigitbilgi2010 = [70,60,70]
-senaturan1999 = [80,80,70]
-ahmetturan1998 = [80,70,90]
-liste2 = [yigitbilgi2010,senaturan1999,ahmetturan1998]
+yigit = ['Yiğit','Bilgi',2010,[70,60,70]]
+sena = ['Sena','Turan',1999,[80,80,70]]
+ahmet = ['Ahmet','Turan',1998,[80,70,90]]
+liste2 = [yigit,sena,ahmet]
 print(liste2)
 # 13- Liste elemanlarını ekrana yazdırınız.
 for x in liste:
